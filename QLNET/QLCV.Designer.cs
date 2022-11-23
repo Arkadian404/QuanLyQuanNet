@@ -36,15 +36,15 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.txtGLV = new System.Windows.Forms.TextBox();
             this.txtCLV = new System.Windows.Forms.TextBox();
+            this.txtID = new System.Windows.Forms.TextBox();
             this.txtMNV = new System.Windows.Forms.TextBox();
             this.lbGLV = new System.Windows.Forms.Label();
             this.lbCLV = new System.Windows.Forms.Label();
             this.lbNLV = new System.Windows.Forms.Label();
+            this.lbID = new System.Windows.Forms.Label();
             this.lbMNV = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.lbID = new System.Windows.Forms.Label();
-            this.txtID = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -52,6 +52,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.groupBox1.Controls.Add(this.dtp);
             this.groupBox1.Controls.Add(this.bntInit);
             this.groupBox1.Controls.Add(this.btnDelete);
@@ -143,6 +144,14 @@
             this.txtCLV.Size = new System.Drawing.Size(146, 27);
             this.txtCLV.TabIndex = 1;
             // 
+            // txtID
+            // 
+            this.txtID.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.12727F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtID.Location = new System.Drawing.Point(158, 30);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(146, 27);
+            this.txtID.TabIndex = 1;
+            // 
             // txtMNV
             // 
             this.txtMNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.12727F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -181,6 +190,16 @@
             this.lbNLV.TabIndex = 0;
             this.lbNLV.Text = "Ngày làm việc";
             // 
+            // lbID
+            // 
+            this.lbID.AutoSize = true;
+            this.lbID.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.12727F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbID.Location = new System.Drawing.Point(6, 33);
+            this.lbID.Name = "lbID";
+            this.lbID.Size = new System.Drawing.Size(108, 20);
+            this.lbID.TabIndex = 0;
+            this.lbID.Text = "Mã nhân viên";
+            // 
             // lbMNV
             // 
             this.lbMNV.AutoSize = true;
@@ -210,29 +229,11 @@
             this.dataGridView1.Size = new System.Drawing.Size(579, 498);
             this.dataGridView1.TabIndex = 0;
             // 
-            // lbID
-            // 
-            this.lbID.AutoSize = true;
-            this.lbID.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.12727F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbID.Location = new System.Drawing.Point(6, 33);
-            this.lbID.Name = "lbID";
-            this.lbID.Size = new System.Drawing.Size(108, 20);
-            this.lbID.TabIndex = 0;
-            this.lbID.Text = "Mã nhân viên";
-            // 
-            // txtID
-            // 
-            this.txtID.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.12727F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtID.Location = new System.Drawing.Point(158, 30);
-            this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(146, 27);
-            this.txtID.TabIndex = 1;
-            // 
             // QLCV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(1159, 555);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);

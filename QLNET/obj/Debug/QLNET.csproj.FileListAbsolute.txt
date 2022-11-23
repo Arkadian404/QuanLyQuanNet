@@ -22,3 +22,4 @@ D:\C# Stuffs\QLNET\QLNET\obj\Debug\QLNET.pdb
 D:\C# Stuffs\QLNET\QLNET\obj\Debug\QLNET.VaiTroCongViec.resources
 D:\C# Stuffs\QLNET\QLNET\obj\Debug\QLNET.Login.resources
 D:\C# Stuffs\QLNET\QLNET\obj\Debug\QLNET.ThongKe.resources
+D:\C# Stuffs\QLNET\QLNET\obj\Debug\QLNET.UuDai.resources

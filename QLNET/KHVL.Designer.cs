@@ -48,6 +48,7 @@
             // 
             // groupbox1
             // 
+            this.groupbox1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.groupbox1.Controls.Add(this.btnInit);
             this.groupbox1.Controls.Add(this.btnDelete);
             this.groupbox1.Controls.Add(this.btnEdit);
@@ -186,7 +187,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(910, 570);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupbox1);

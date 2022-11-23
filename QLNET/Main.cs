@@ -128,5 +128,11 @@ namespace QLNET
             ThongKe tk = new ThongKe();
             tk.ShowDialog();
         }
+
+        private void ưuĐãiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UuDai ud = new UuDai();
+            AddForm(ud);
+        }
     }
 }

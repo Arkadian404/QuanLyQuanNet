@@ -135,6 +135,12 @@
     <Compile Include="ThucDon.Designer.cs">
       <DependentUpon>ThucDon.cs</DependentUpon>
     </Compile>
+    <Compile Include="UuDai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UuDai.Designer.cs">
+      <DependentUpon>UuDai.cs</DependentUpon>
+    </Compile>
     <Compile Include="VaiTroCongViec.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -188,6 +194,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ThucDon.resx">
       <DependentUpon>ThucDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UuDai.resx">
+      <DependentUpon>UuDai.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VaiTroCongViec.resx">
       <DependentUpon>VaiTroCongViec.cs</DependentUpon>
