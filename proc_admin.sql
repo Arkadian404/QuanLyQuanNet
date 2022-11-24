@@ -524,7 +524,7 @@ begin tran
 commit tran
 go
 
-create procedure sp_XoaUuDai(@maUuDai varchar(10), @phanTramTangThem real, @ghiChu nvarchar(50))
+create procedure sp_XoaUuDai(@maUuDai varchar(10))
 as
 begin tran
 	if(@maUuDai is null)
